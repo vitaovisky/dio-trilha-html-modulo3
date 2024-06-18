@@ -1,0 +1,102 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  padding: 0 3.25rem;
+}
+
+nav {
+  padding: 0.5rem 0;
+}
+
+.logo {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  min-width: 13.875em;
+}
+
+ul {
+  list-style: none;
+  padding-left: 5px;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+.bar {
+  background-color: #f9f9fb;
+  padding: 15px;
+  border-top: solid 1px #cdcdcd;
+  border-bottom: solid 1px #cdcdcd;
+}
+.content {
+  max-width: 1440px;
+  margin: auto;
+  grid-gap: 3rem;
+  display: grid;
+  gap: 3rem;
+  grid-template-areas: "sidebar main anchors";
+  grid-template-columns: minmax(0, 15rem) minmax(0, 2.5fr) minmax(0, 15rem);
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.footer {
+  padding-top: 20px;
+  min-height: 100px;
+  text-align: center;
+  border-top: solid 1px #cdcdcd;
+}
+.anchors {
+  border-left: solid 1px #cdcdcd;
+  padding-left: 15px;
+}
+.sidebar {
+  border-right: solid 1px #cdcdcd;
+}
+
+.flex {
+  display: flex;
+  align-content: baseline;
+}
+
+.flex ul,
+p {
+  margin-top: 0;
+}
+
+figure {
+  text-align: center;
+  width: 180px;
+  display: inline-block;
+  margin: 8px;
+  border: 1px solid #c7c7c7;
+  height: 100%;
+  padding: 4px;
+}
+
+figure img {
+  width: 172px;
+}
+
+table {
+  border: 1px solid #c7c7c7;
+}
+
+table td {
+  border-bottom: 1px solid #c7c7c7;
+}
+
+.anchors ul {
+  padding-left: 20px;
+}
+
+.anchors ul li a {
+  display: block;
+  margin-bottom: 10px;
+}
